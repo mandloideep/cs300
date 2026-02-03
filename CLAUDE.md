@@ -2,6 +2,22 @@
 
 This Hugo site uses the **Hextra theme**. Follow these guidelines when adding or updating course content.
 
+## Critical: Sidebar Configuration
+
+The `content/notes/_index.md` file MUST have `cascade: type: docs` to enable the left sidebar navigation for all pages. Without this, pages will use the "default" layout which has no sidebar.
+
+```yaml
+# content/notes/_index.md front matter
+---
+title: "Course Notes"
+weight: 1
+cascade:
+  type: docs
+sidebar:
+  open: true
+---
+```
+
 ## Adding New Week Content
 
 When adding content for a new week (e.g., Week 2, Week 3, etc.):
@@ -25,7 +41,7 @@ Update the corresponding week card from "Coming soon" to actual content:
 
 ### 3. Week `_index.md` template
 
-Use this template for new week overview pages:
+Use this template for new week overview pages. **Do NOT include a `# Title` heading** - the `title:` in front matter is rendered automatically.
 
 ```markdown
 ---
@@ -34,8 +50,6 @@ weight: X
 sidebar:
   open: true
 ---
-
-# Week X: [Topic Name]
 
 {{< callout type="info" >}}
 **Learning Objectives:** [List what students will learn]
@@ -57,18 +71,19 @@ sidebar:
 
 ### 4. Session file template
 
-**IMPORTANT:** Session files need `toc: true` to show the right sidebar (table of contents) which matches the week overview layout.
+**IMPORTANT:**
+- Add `toc: true` to show the right sidebar (table of contents)
+- **Do NOT include a `# Title` heading** - the `title:` in front matter is rendered automatically
+- Start content with `## Section` headings
 
 ```markdown
 ---
-title: "Session X: [Title]"
+title: "[Session Title]"
 weight: X
 toc: true
 ---
 
-# [Title]
-
-## Section 1
+## Introduction
 
 [Content here...]
 
@@ -81,7 +96,7 @@ toc: true
 
 ## Hextra Shortcodes Available
 
-- `{{< callout type="info|warning|error" >}}` - Highlighted info boxes
+- `{{< callout type="info|warning|error|important" >}}` - Highlighted info boxes
 - `{{< cards >}}` with `{{< card >}}` - Card grids for navigation
 - `{{< tabs >}}` with `{{< tab >}}` - Tabbed content
 - `{{% steps %}}` - Numbered step lists

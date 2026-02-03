@@ -1,11 +1,11 @@
 ---
 title: "Course Notes"
 weight: 1
+cascade:
+  type: docs
 sidebar:
   open: true
 ---
-
-# Course Notes
 
 Browse the weekly lecture notes and materials below.
 
