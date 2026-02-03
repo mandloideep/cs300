@@ -76,8 +76,11 @@ This session builds on HTML basics by covering **semantic HTML5 elements**, **fo
 **`<main>`**
 
 - Contains the primary content of the page
-- **Only ONE `<main>` per page**
 - Should not include headers, footers, or sidebars
+
+{{< callout type="important" >}}
+**Only ONE `<main>` per page** - This element represents the dominant content of the document body.
+{{< /callout >}}
 
 ```html
 <main>
@@ -217,7 +220,13 @@ Forms collect user input and send it to a server. They're essential for login pa
 
 ### The Label-Input Connection
 
-Labels and inputs must be connected for accessibility:
+{{< callout type="warning" >}}
+Labels and inputs **must be connected** for accessibility. This allows:
+
+- Clicking the label to focus the input
+- Screen readers to announce the label when the input is focused
+- **Always connect your labels!**
+  {{< /callout >}}
 
 ```html
 <!-- Method 1: Using "for" and "id" -->
@@ -237,12 +246,6 @@ Labels and inputs must be connected for accessibility:
   />
 </label>
 ```
-
-**Why this matters:**
-
-- Clicking the label focuses the input
-- Screen readers announce the label when the input is focused
-- **Always connect your labels!**
 
 ### Common Input Types
 
@@ -302,7 +305,9 @@ Labels and inputs must be connected for accessibility:
 <label for="opt2">Option 2</label>
 ```
 
-**Note:** Radio buttons with the same `name` form a group (only one can be selected).
+{{< callout type="info" >}}
+Radio buttons with the same `name` form a group (only one can be selected).
+{{< /callout >}}
 
 ### Textarea (Multi-line Text)
 
@@ -332,10 +337,12 @@ Labels and inputs must be connected for accessibility:
 </select>
 ```
 
+{{< callout type="info" >}}
 **When to use select vs radio buttons:**
 
 - **Radio buttons** - 2-4 options (all visible)
 - **Select dropdown** - 5+ options (saves space)
+  {{< /callout >}}
 
 ### Important Input Attributes
 
@@ -413,9 +420,9 @@ Labels and inputs must be connected for accessibility:
 
 Tables display **tabular data** - information organized in rows and columns. Think spreadsheets, schedules, comparison charts.
 
-### Important Note
-
+{{< callout type="warning" >}}
 **Tables are for DATA, not layout.** Don't use tables to position elements on a page - use CSS for layout.
+{{< /callout >}}
 
 ### Basic Table Structure
 
@@ -538,6 +545,7 @@ Accessibility means making your website usable by everyone, including people wit
 
 ### Quick Wins for Accessibility
 
+{{< callout type="important" >}}
 **1. Always use alt text on images**
 
 ```html
@@ -556,6 +564,9 @@ Accessibility means making your website usable by everyone, including people wit
 <!-- Missing alt -->
 ```
 
+{{< /callout >}}
+
+{{< callout type="important" >}}
 **2. Use semantic elements**
 
 ```html
@@ -570,6 +581,9 @@ Accessibility means making your website usable by everyone, including people wit
 <div onclick="...">Click me</div>
 ```
 
+{{< /callout >}}
+
+{{< callout type="important" >}}
 **3. Connect labels to inputs**
 
 ```html
@@ -585,6 +599,9 @@ Accessibility means making your website usable by everyone, including people wit
 <input type="email" />
 ```
 
+{{< /callout >}}
+
+{{< callout type="important" >}}
 **4. Use proper heading hierarchy**
 
 ```html
@@ -597,6 +614,8 @@ Accessibility means making your website usable by everyone, including people wit
 <h1>Main Title</h1>
 <h4>Subsection</h4>
 ```
+
+{{< /callout >}}
 
 **5. Ensure sufficient color contrast**
 
@@ -619,15 +638,20 @@ AI tools can help you write HTML faster, but you must understand what they gener
 
 ### Good vs Bad Prompts
 
-**Bad prompt:**
+{{< tabs items="Bad,Better,Best" >}}
+{{< tab >}}
 
 > "Make me a form"
 
-**Better prompt:**
+Too vague - you'll get a generic form that may not fit your needs.
+{{< /tab >}}
+{{< tab >}}
 
 > "Create an HTML contact form with fields for name, email, and message. Include labels for accessibility and a submit button."
 
-**Best prompt:**
+Better - specifies the fields and mentions accessibility.
+{{< /tab >}}
+{{< tab >}}
 
 > "Create an HTML contact form with:
 >
@@ -638,13 +662,20 @@ AI tools can help you write HTML faster, but you must understand what they gener
 > - Submit button at the bottom
 >   Use semantic HTML."
 
+Best - specific requirements, accessibility built-in, clear expectations.
+{{< /tab >}}
+{{< /tabs >}}
+
 ### Important Rules
+
+{{< callout type="warning" >}}
 
 - **You must understand every line of code you submit**
 - AI can make mistakes - always verify
 - If you can't explain it, don't use it
 - Video walkthroughs require you to explain your code
 - AI is a tool, not a replacement for learning
+  {{< /callout >}}
 
 ---
 
@@ -675,50 +706,60 @@ AI tools can help you write HTML faster, but you must understand what they gener
 
 ### Basic Workflow
 
-```
-1. Create repo on GitHub
-         ↓
-2. Clone to your computer
-         ↓
-3. Make changes to files
-         ↓
-4. Stage changes (git add)
-         ↓
-5. Commit changes (git commit)
-         ↓
-6. Push to GitHub (git push)
-```
+{{% steps %}}
 
-### Essential Git Commands
+### Create repo on GitHub
 
-**Clone a repository:**
+Go to GitHub and create a new repository
+
+### Clone to your computer
 
 ```bash
 git clone https://github.com/username/repo-name.git
 ```
 
-**Check status (what's changed):**
+### Make changes to files
 
-```bash
-git status
-```
+Edit your HTML, CSS, or other files
 
-**Stage files for commit:**
+### Stage changes
 
 ```bash
 git add filename.html        # Add specific file
 git add .                    # Add all changed files
 ```
 
-**Commit changes:**
+### Commit changes
 
 ```bash
 git commit -m "Add contact form to homepage"
 ```
 
-**Push to GitHub:**
+### Push to GitHub
 
 ```bash
+git push
+```
+
+{{% /steps %}}
+
+### Essential Git Commands
+
+```bash
+# Clone a repository
+git clone https://github.com/username/repo-name.git
+
+# Check status (what's changed)
+git status
+
+# Stage files for commit
+git add filename.html        # Add specific file
+git add .                    # Add all changed files
+
+# Commit changes
+git commit -m "Add contact form to homepage"
+
+# Push to GitHub
 git push
 ```
 
@@ -726,40 +767,47 @@ git push
 
 **Format:** Start with a verb, be specific
 
-**Good examples:**
+{{< tabs items="Good Examples,Bad Examples" >}}
+{{< tab >}}
 
 - "Add navigation bar to homepage"
 - "Fix broken link in footer"
 - "Update contact form validation"
 - "Remove unused CSS styles"
-
-**Bad examples:**
-
+  {{< /tab >}}
+  {{< tab >}}
 - "Updated stuff"
 - "Fixed it"
 - "Changes"
 - "asdfasdf"
+  {{< /tab >}}
+  {{< /tabs >}}
 
 ### Common Issues and Solutions
 
-**"Permission denied" when pushing:**
+{{% details title="\"Permission denied\" when pushing" %}}
 
 - Make sure you're logged into GitHub
 - Check that you have access to the repository
+  {{% /details %}}
 
-**"Nothing to commit":**
+{{% details title="\"Nothing to commit\"" %}}
 
 - You haven't made any changes, or
 - You already committed the changes
+  {{% /details %}}
 
-**Changed files not showing:**
+{{% details title="Changed files not showing" %}}
 
 - Make sure you saved the files
 - Run `git status` to check
+  {{% /details %}}
 
 ---
 
 ## Key Takeaways
+
+{{< callout emoji="🎯" >}}
 
 - **Semantic HTML** makes your code accessible, SEO-friendly, and maintainable
 - Use `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` appropriately
@@ -769,6 +817,7 @@ git push
 - **Accessibility** is essential - use alt text, semantic elements, and proper labels
 - **Git** tracks changes locally; **GitHub** hosts your code online
 - AI is a tool - always understand and verify generated code
+  {{< /callout >}}
 
 ---
 
@@ -776,25 +825,33 @@ git push
 
 ### Semantic HTML
 
-- [MDN: Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-- [HTML5 Doctor](http://html5doctor.com/) - When to use each element
+{{< cards >}}
+{{< card link="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure" title="MDN: Document Structure" subtitle="Document and website structure guide" icon="book-open" >}}
+{{< card link="http://html5doctor.com/" title="HTML5 Doctor" subtitle="When to use each element" icon="academic-cap" >}}
+{{< /cards >}}
 
 ### Forms
 
-- [MDN: Web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
-- [MDN: Input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+{{< cards >}}
+{{< card link="https://developer.mozilla.org/en-US/docs/Learn/Forms" title="MDN: Web Forms" subtitle="Complete forms guide" icon="book-open" >}}
+{{< card link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="MDN: Input Types" subtitle="All input type references" icon="document-text" >}}
+{{< /cards >}}
 
 ### Accessibility
 
-- [WebAIM: Introduction to Web Accessibility](https://webaim.org/intro/)
-- [A11Y Project Checklist](https://www.a11yproject.com/checklist/)
-- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+{{< cards >}}
+{{< card link="https://webaim.org/intro/" title="WebAIM: Introduction" subtitle="Introduction to Web Accessibility" icon="eye" >}}
+{{< card link="https://www.a11yproject.com/checklist/" title="A11Y Project Checklist" subtitle="Accessibility checklist" icon="check-circle" >}}
+{{< card link="https://webaim.org/resources/contrastchecker/" title="WebAIM Contrast Checker" subtitle="Check color contrast" icon="color-swatch" >}}
+{{< /cards >}}
 
 ### Git and GitHub
 
-- [GitHub: Git Handbook](https://guides.github.com/introduction/git-handbook/)
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Learn Git Branching](https://learngitbranching.js.org/) - Interactive tutorial
+{{< cards >}}
+{{< card link="https://guides.github.com/introduction/git-handbook/" title="GitHub: Git Handbook" subtitle="Official Git guide" icon="book-open" >}}
+{{< card link="https://education.github.com/git-cheat-sheet-education.pdf" title="Git Cheat Sheet" subtitle="Quick reference PDF" icon="document-text" >}}
+{{< card link="https://learngitbranching.js.org/" title="Learn Git Branching" subtitle="Interactive tutorial" icon="play" >}}
+{{< /cards >}}
 
 ### Tools
 
