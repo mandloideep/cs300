@@ -1,6 +1,7 @@
 ---
 title: "Session 1: HTML Basics"
 weight: 1
+toc: true
 ---
 
 # HTML Basics

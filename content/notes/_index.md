@@ -1,9 +1,17 @@
 ---
 title: "Course Notes"
 weight: 1
-bookFlatSection: true
+sidebar:
+  open: true
 ---
 
-# CS300 Course Notes
+# Course Notes
 
-Welcome to the CS300 Client-Side Web Development course notes. Select a week from the sidebar to get started.
+Browse the weekly lecture notes and materials below.
+
+{{< cards >}}
+  {{< card link="week-01" title="Week 1: HTML Foundations" icon="document-text" subtitle="HTML basics, semantic elements, forms, and Git setup" >}}
+  {{< card link="week-02" title="Week 2" icon="document" subtitle="Coming soon" >}}
+  {{< card link="week-03" title="Week 3" icon="document" subtitle="Coming soon" >}}
+  {{< card link="week-04" title="Week 4" icon="document" subtitle="Coming soon" >}}
+{{< /cards >}}

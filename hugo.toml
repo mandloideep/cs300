@@ -1,26 +1,41 @@
 baseURL = "https://mandloideep.github.io/cs300/"
 languageCode = "en-us"
 title = "CS300 Client-Side Web Development"
-theme = "hugo-book"
+theme = "hextra"
 
 # Required for GitHub Pages subpath hosting
 canonifyURLs = true
 
 [params]
-  # Book theme settings
-  BookTheme = "auto"
-  BookToC = true
-  BookSection = "notes"
-  BookRepo = "https://github.com/mandloideep/cs300"
-  BookSearch = true
+  description = "Course notes for CS300 at NEIU"
+  
+  [params.theme]
+    default = "light"
+    displayToggle = true
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.footer]
+    displayPoweredBy = false
+
+  [params.search]
+    enable = true
+    type = "flexsearch"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # Allows raw HTML in markdown (useful for embedding)
+      unsafe = true
 
 [menu]
-  [[menu.after]]
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 1
+  
+  [[menu.main]]
     name = "GitHub"
     url = "https://github.com/mandloideep/cs300"
-    weight = 10
+    weight = 2

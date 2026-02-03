@@ -1,6 +1,7 @@
 ---
 title: "Session 2: Advanced HTML & Developer Tools"
 weight: 2
+toc: true
 ---
 
 # Advanced HTML & Developer Tools
