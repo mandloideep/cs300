@@ -104,4 +104,21 @@ toc: true
 
 ## Icon Names for Cards
 
-Common icons: `code`, `document-text`, `document`, `academic-cap`, `terminal`, `color-swatch`, `sparkles`, `cog`, `globe-alt`
+Common icons: `code`, `document-text`, `document`, `academic-cap`, `terminal`, `color-swatch`, `sparkles`, `cog`, `globe-alt`, `view-boards`, `view-grid`
+
+## Checklist: Adding a New Session
+
+When adding a new session to an existing week, follow these steps in order:
+
+1. **Create the session file** at `content/notes/week-XX/session-X.md` using the session template above
+2. **Update the week's `_index.md`** to add/update the session card (change "Coming soon" to actual subtitle)
+3. **Update `content/notes/_index.md`** if this is the first session for a new week (change week card from "Coming soon")
+
+## Checklist: Adding a New Week
+
+When adding content for a completely new week, follow these steps in order:
+
+1. **Create the week folder** at `content/notes/week-XX/`
+2. **Create the week `_index.md`** using the week template above
+3. **Create session files** (`session-1.md`, `session-2.md`, etc.) using the session template
+4. **Update `content/notes/_index.md`** to update the week card from "Coming soon" to the actual title, icon, and subtitle
