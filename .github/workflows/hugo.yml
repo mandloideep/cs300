@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.140.0
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -35,6 +35,21 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: themes/hextra/package-lock.json
+
+      - name: Install theme dependencies
+        run: npm ci
+        working-directory: themes/hextra
+
+      - name: Build theme CSS
+        run: npm run build:css
+        working-directory: themes/hextra
 
       - name: Setup Pages
         id: pages
