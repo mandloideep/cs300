@@ -13,4 +13,6 @@ Browse the weekly lecture notes and materials below.
 {{< card link="week-01" title="Week 1: HTML Foundations" icon="document-text" subtitle="HTML basics, semantic elements, forms, and Git setup" >}}
 {{< card link="week-02" title="Week 2: CSS Fundamentals" icon="color-swatch" subtitle="CSS syntax, selectors, box model, colors, and typography" >}}
 {{< card link="week-03" title="Week 3: CSS Layouts" icon="view-boards" subtitle="Flexbox and Grid fundamentals for responsive layouts" >}}
+{{< card link="week-04" title="Week 4: Advanced Grid & Responsive Design" icon="view-grid" subtitle="Named grid lines, media queries, and mobile-first responsive design" >}}
+{{< card link="week-05" title="Week 5: JavaScript Fundamentals" icon="terminal" subtitle="Variables, functions, arrays, objects, and array methods" >}}
 {{< /cards >}}

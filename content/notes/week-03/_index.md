@@ -13,7 +13,7 @@ sidebar:
 
 {{< cards >}}
 {{< card link="session-1" title="Session 1: CSS Flexbox" icon="view-boards" subtitle="Flex containers, items, axes, and common layout patterns" >}}
-{{< card link="session-2" title="Session 2: CSS Grid" icon="view-grid" subtitle="Coming soon" >}}
+{{< card link="session-2" title="Session 2: CSS Grid" icon="view-grid" subtitle="Two-dimensional layouts with rows and columns, fr units, grid areas, and responsive patterns" >}}
 {{< /cards >}}
 
 ## Topics Covered
