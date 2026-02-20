@@ -16,3 +16,11 @@ Browse the weekly lecture notes and materials below.
 {{< card link="week-04" title="Week 4: Advanced Grid & Responsive Design" icon="view-grid" subtitle="Named grid lines, media queries, and mobile-first responsive design" >}}
 {{< card link="week-05" title="Week 5: JavaScript Fundamentals" icon="terminal" subtitle="Variables, functions, arrays, objects, and array methods" >}}
 {{< /cards >}}
+
+## Assignments & Projects
+
+{{< cards >}}
+  {{< card link="assignments" title="Assignments" icon="document-text" subtitle="Individual assignment guides and resources" >}}
+  {{< card link="group-projects" title="Group Projects" icon="view-boards" subtitle="Team project guides and collaboration resources" >}}
+  {{< card link="individual-projects" title="Individual Projects" icon="sparkles" subtitle="Portfolio and capstone project guides" >}}
+{{< /cards >}}

@@ -122,3 +122,15 @@ When adding content for a completely new week, follow these steps in order:
 2. **Create the week `_index.md`** using the week template above
 3. **Create session files** (`session-1.md`, `session-2.md`, etc.) using the session template
 4. **Update `content/notes/_index.md`** to update the week card from "Coming soon" to the actual title, icon, and subtitle
+
+## Pending Content Releases
+
+These files exist locally but are gitignored until ready to publish. When releasing each item:
+1. Remove the file from `.gitignore`
+2. Add a card for it in the corresponding section `_index.md`
+3. Commit both changes and push
+
+- [ ] **Assignment 3** (`content/notes/assignments/assignment-3.md`) — add card to `content/notes/assignments/_index.md`
+- [ ] **Assignment 4** (`content/notes/assignments/assignment-4.md`) — add card to `content/notes/assignments/_index.md`
+- [ ] **Group Project 2** (`content/notes/group-projects/group-project-2.md`) — add card to `content/notes/group-projects/_index.md`
+- [ ] **Final Project** (`content/notes/individual-projects/final-project.md`) — add card to `content/notes/individual-projects/_index.md`
