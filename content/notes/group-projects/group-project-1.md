@@ -80,7 +80,7 @@ Use GitHub Issues, a shared Google Doc, or a simple checklist to track what need
 
 ## Understanding the Requirements
 
-Here is what each rubric category is worth and what the instructor is looking for:
+Here is what each rubric category is worth and what I am looking for:
 
 | Criteria            | Points | What This Means                                                                                 |
 | ------------------- | ------ | ----------------------------------------------------------------------------------------------- |
@@ -93,7 +93,7 @@ Here is what each rubric category is worth and what the instructor is looking fo
 | Documentation       | 15     | Complete README with project info, team members, live URL, screenshots, setup instructions      |
 
 {{< callout type="warning" >}}
-Team Collaboration is worth 25 points. The instructor reviews your Git history to see if all members are contributing. One person doing all the work results in point deductions for the entire team, plus peer evaluation adjustments of up to plus or minus 20%.
+Team Collaboration is worth 25 points. I review your Git history to see if all members are contributing. One person doing all the work results in point deductions for the entire team, plus peer evaluation adjustments of up to plus or minus 20%.
 {{< /callout >}}
 
 ---
@@ -240,10 +240,10 @@ Keep meetings short and focused. If a discussion goes long, schedule a separate 
 
 | Issue                   | Solution                                                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Member not responding   | Try all contact methods. Contact the instructor after 48 hours of silence                                          |
-| Unequal contribution    | Discuss with the team first. Document the situation for your peer evaluation. Talk to the instructor if unresolved |
+| Member not responding   | Try all contact methods. Contact me after 48 hours of silence                                          |
+| Unequal contribution    | Discuss with the team first. Document the situation for your peer evaluation. Talk to me if unresolved |
 | Merge conflicts         | Pair up on a call and resolve together. Pull from main more frequently going forward                               |
-| Disagreements on design | Vote as a team (majority wins). If deadlocked, ask the instructor to mediate                                       |
+| Disagreements on design | Vote as a team (majority wins). If deadlocked, ask me to mediate                                       |
 | Behind schedule         | Reprioritize immediately. Cut non-essential features. Focus on meeting core requirements first                     |
 
 ---
@@ -304,7 +304,7 @@ These milestones keep your team on track across the six-week project timeline. F
 {{% /steps %}}
 
 {{< callout type="important" >}}
-These milestones exist for a reason. If your team is behind by more than one week, talk to the instructor immediately. Early intervention is always better than last-minute panic.
+These milestones exist for a reason. If your team is behind by more than one week, talk to me immediately. Early intervention is always better than last-minute panic.
 {{< /callout >}}
 
 ---
@@ -397,7 +397,7 @@ Page names will vary depending on your chosen project option. The structure abov
 
 ## Presentation Guide
 
-Your team will present the project live to the instructor -- either during a scheduled meeting or during a Thursday class session before March 22. Every team member must participate.
+Your team will present the project live to me -- either during a scheduled meeting or during a Thursday class session before March 22. Every team member must participate.
 
 {{% steps %}}
 
@@ -415,7 +415,7 @@ As a team, walk through the deployed website. Show it working at different scree
 
 ### Be Prepared for Questions About Your Code
 
-The instructor may ask follow-up questions: "Why did you use Grid here instead of Flexbox?" or "How does this JavaScript feature work?" You must be able to explain any code you submitted.
+I may ask follow-up questions: "Why did you use Grid here instead of Flexbox?" or "How does this JavaScript feature work?" You must be able to explain any code you submitted.
 
 ### All Cameras On During the Presentation
 
@@ -430,14 +430,14 @@ Every team member must have their camera on for the entire presentation. This is
 After submission, each team member completes a confidential peer evaluation:
 
 - **Due within 3 days** of the project deadline
-- **Confidential** -- the instructor sees them, your teammates do not
+- **Confidential** -- I see them, your teammates do not
 - **Rate each team member** on contribution level, communication quality, and work quality (1-5 scale)
 - **Describe each member's contributions** in your own words
 - **Self-assessment** of your own contribution
 - **Adjusts individual grades** by up to plus or minus 20%
 
 {{< callout type="info" >}}
-Be honest in peer evaluations. They ensure fair grading when contribution is unequal. If one team member carried the project, the peer evaluations are how the instructor finds out and adjusts grades accordingly.
+Be honest in peer evaluations. They ensure fair grading when contribution is unequal. If one team member carried the project, the peer evaluations are how I find out and adjust grades accordingly.
 {{< /callout >}}
 
 ---
@@ -525,7 +525,7 @@ Communicate in your group chat about which files each person is editing. If two 
 {{% /details %}}
 
 {{% details title="One team member is not contributing" closed="true" %}}
-Talk to them directly first -- they may be struggling or dealing with something outside of class. If there is no response after 48 hours, contact the instructor. Document the situation for your peer evaluation. Do not wait until the last week to raise this issue.
+Talk to them directly first -- they may be struggling or dealing with something outside of class. If there is no response after 48 hours, contact me. Document the situation for your peer evaluation. Do not wait until the last week to raise this issue.
 {{% /details %}}
 
 {{% details title="Our design looks inconsistent across pages" closed="true" %}}
@@ -541,7 +541,7 @@ Test each feature independently. Use `console.log()` statements to track what yo
 {{% /details %}}
 
 {{% details title="We are behind on the milestone schedule" closed="true" %}}
-Reprioritize immediately. Identify the core requirements (5 pages, responsive CSS, 3 JS features) and focus only on those. Cut nice-to-have features like animations or extra pages. Talk to the instructor -- they can help you prioritize and may offer guidance on where to focus.
+Reprioritize immediately. Identify the core requirements (5 pages, responsive CSS, 3 JS features) and focus only on those. Cut nice-to-have features like animations or extra pages. Talk to me -- I can help you prioritize and may offer guidance on where to focus.
 {{% /details %}}
 
 {{% details title="Our GitHub Pages deployment shows a 404" closed="true" %}}
@@ -593,7 +593,7 @@ If you already pushed to main, talk to your team. The Project Lead can help sort
 - **Test at 375px, 768px, and 1024px** for responsive design at all screen sizes
 - **All team members must have visible Git contributions** -- commits, branches, and pull requests
 - **Peer evaluations adjust individual grades** by up to plus or minus 20% -- be honest and fair
-- **Talk to the instructor early** if your team is struggling -- do not wait until the deadline
+- **Talk to me early** if your team is struggling -- do not wait until the deadline
   {{< /callout >}}
 
 ---

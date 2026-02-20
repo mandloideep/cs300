@@ -75,7 +75,7 @@ Writing content first is the most important step. A portfolio with great content
 
 ## Understanding the Requirements
 
-Here is what each rubric category is worth and what the instructor is looking for:
+Here is what each rubric category is worth and what I am looking for:
 
 | Criteria                   | Points  | What This Means                                                     |
 | -------------------------- | ------- | ------------------------------------------------------------------- |
@@ -94,7 +94,7 @@ Here is what each rubric category is worth and what the instructor is looking fo
 {{< /callout >}}
 
 {{< callout type="important" >}}
-**Content Quality is worth 20 points.** Real, well-written content is required -- not "Lorem ipsum" or placeholder text. Spend time writing a compelling bio and clear project descriptions. Employers will read your portfolio content, and so will the instructor.
+**Content Quality is worth 20 points.** Real, well-written content is required -- not "Lorem ipsum" or placeholder text. Spend time writing a compelling bio and clear project descriptions. Employers will read your portfolio content, and so will I.
 {{< /callout >}}
 
 ---

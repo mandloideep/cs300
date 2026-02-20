@@ -94,6 +94,15 @@ toc: true
 
 **Note:** The right sidebar (table of contents) is generated from `##` headings in the content. Use proper heading hierarchy (`##` for main sections, `###` for subsections) to generate a useful table of contents.
 
+## Writing Voice
+
+All content is written in **first person** from the instructor's perspective. Use "I", "me", and "my" — never "the instructor". These notes live on the instructor's personal repo and should read as if written directly by them.
+
+- "what I am looking for" (not "what the instructor is looking for")
+- "talk to me" (not "talk to the instructor")
+- "I review your Git history" (not "the instructor reviews")
+- "with my approval" (not "with instructor approval")
+
 ## Hextra Shortcodes Available
 
 - `{{< callout type="info|warning|error|important" >}}` - Highlighted info boxes

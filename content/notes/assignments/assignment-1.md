@@ -52,7 +52,7 @@ Start with a sketch. The biggest mistake students make is jumping straight into 
 
 ## Understanding the Requirements
 
-Here is what each rubric category is worth and what the instructor is looking for:
+Here is what each rubric category is worth and what I am looking for:
 
 | Criteria          | Points | What This Means                                                    |
 | ----------------- | ------ | ------------------------------------------------------------------ |
