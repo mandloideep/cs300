@@ -15,6 +15,7 @@ Browse the weekly lecture notes and materials below.
 {{< card link="week-03" title="Week 3: CSS Layouts" icon="view-boards" subtitle="Flexbox and Grid fundamentals for responsive layouts" >}}
 {{< card link="week-04" title="Week 4: Advanced Grid & Responsive Design" icon="view-grid" subtitle="Named grid lines, media queries, and mobile-first responsive design" >}}
 {{< card link="week-05" title="Week 5: JavaScript Fundamentals" icon="terminal" subtitle="Variables, functions, arrays, objects, and array methods" >}}
+{{< card link="week-06" title="Week 6: DOM Manipulation & Events" icon="code" subtitle="DOM selection, modification, event handling, and form validation" >}}
 {{< /cards >}}
 
 ## Assignments & Projects
