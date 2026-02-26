@@ -13,6 +13,7 @@ sidebar:
 
 {{< cards >}}
   {{< card link="session-1" title="Session 1: DOM Manipulation & Events" icon="code" subtitle="Selecting elements, modifying content and styles, event handling, form validation, and common interactive patterns" >}}
+  {{< card link="session-2" title="Session 2: Advanced DOM Patterns & Data Persistence" icon="academic-cap" subtitle="Event delegation, DOM traversal, data attributes, template literals, and localStorage" >}}
 {{< /cards >}}
 
 ## Topics Covered
