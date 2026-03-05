@@ -13,7 +13,7 @@ sidebar:
 
 {{< cards >}}
   {{< card link="session-1" title="Session 1: Async JavaScript & Fetch API" icon="code" subtitle="Synchronous vs asynchronous code, Promises, async/await, Fetch API, and rendering API data" >}}
-  {{< card link="session-2" title="Session 2: API Patterns & Error Handling" icon="academic-cap" subtitle="Response structures, URL construction, loading and error states, FormData, and input validation" >}}
+  {{< card link="session-2" title="Session 2: Application Architecture Patterns" icon="academic-cap" subtitle="Component functions, central state, props, event delegation, hash routing, and building CourseHub" >}}
 {{< /cards >}}
 
 ## Topics Covered
