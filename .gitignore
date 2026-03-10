@@ -120,7 +120,7 @@ resources/_gen/
 .hugo_build.lock
 
 # Unpublished course content (remove lines as content is released)
-content/notes/assignments/assignment-3.md
+# content/notes/assignments/assignment-3.md
 content/notes/assignments/assignment-4.md
 content/notes/group-projects/group-project-2.md
 content/notes/individual-projects/final-project.md

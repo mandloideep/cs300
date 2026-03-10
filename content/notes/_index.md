@@ -17,6 +17,7 @@ Browse the weekly lecture notes and materials below.
 {{< card link="week-05" title="Week 5: JavaScript Fundamentals" icon="terminal" subtitle="Variables, functions, arrays, objects, and array methods" >}}
 {{< card link="week-06" title="Week 6: DOM Manipulation & Events" icon="code" subtitle="DOM selection, modification, event handling, and form validation" >}}
 {{< card link="week-07" title="Week 7: Async JavaScript & APIs" icon="globe-alt" subtitle="Async/await, Fetch API, JSON data, error handling, and API patterns" >}}
+{{< card link="week-08" title="Week 8: Introduction to React" icon="sparkles" subtitle="React basics, JSX, components, and composition with Vite" >}}
 {{< /cards >}}
 
 ## Assignments & Projects
