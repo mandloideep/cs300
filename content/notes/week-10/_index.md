@@ -13,6 +13,7 @@ sidebar:
 
 {{< cards >}}
   {{< card link="session-1" title="Session 1: Props, State & Interactive Components" icon="code" subtitle="Props, children, useState, callback props, and the data down/actions up pattern" >}}
+  {{< card link="session-2" title="Session 2: Composition, Lifecycle, Hooks & Thinking in React" icon="academic-cap" subtitle="Composition patterns, useEffect, useRef, Thinking in React methodology" >}}
 {{< /cards >}}
 
 ## Topics Covered
