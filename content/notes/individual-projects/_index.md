@@ -1,6 +1,6 @@
 ---
 title: "Individual Projects"
-weight: 12
+weight: 102
 sidebar:
   open: true
 ---

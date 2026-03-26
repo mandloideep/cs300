@@ -1,6 +1,6 @@
 ---
 title: "Assignments"
-weight: 10
+weight: 100
 sidebar:
   open: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Group Projects"
-weight: 11
+weight: 101
 sidebar:
   open: true
 ---
