@@ -20,6 +20,7 @@ Browse the weekly lecture notes and materials below.
 {{< card link="week-08" title="Week 8: Introduction to React" icon="sparkles" subtitle="React basics, JSX, components, and composition with Vite" >}}
 {{< card link="week-09" title="Week 9: Spring Break" icon="sparkles" subtitle="No class — enjoy the break! 🌸" >}}
 {{< card link="week-10" title="Week 10: Props, State & Interactive Components" icon="code" subtitle="Props, state, callback props, and the data down/actions up pattern" >}}
+{{< card link="week-11" title="Week 11: React Hooks & Component Patterns Lab" icon="code" subtitle="Hands-on lab: useState, useEffect, useRef, composition, forms, lifecycle, and browser APIs" >}}
 {{< /cards >}}
 
 ## Assignments & Projects
